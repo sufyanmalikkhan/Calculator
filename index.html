@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S coding Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <input id="value-display" type="text" readonly >
+
+    <div class="btn-container">
+        <button class="btn btnor" onclick="document.querySelector('#value-display').value = items ='';">AC</button>
+        <button class="btn btnor" onclick="document.querySelector('#value-display').value = items =items - '1';">DE<button>
+        <button class="btn btnor"onclick="document.querySelector('#value-display').value = items =items + '%';">%</button>
+        <button class="btn btnor"onclick="document.querySelector('#value-display').value = items =items + '/';">/</button>
+    
+        <button class="btn" onclick="document.querySelector('#value-display').value = items =items + '7';">7</button>
+        <button class="btn" onclick="document.querySelector('#value-display').value = items =items + '8';">8</button>
+        <button class="btn" onclick="document.querySelector('#value-display').value = items =items + '9';">9</button>
+        <button class="btn btns" onclick="document.querySelector('#value-display').value = items =items + '*';">*</button>
+
+        <button class="btn" onclick="document.querySelector('#value-display').value = items =items + '4';">4</button>
+        <button class="btn" onclick="document.querySelector('#value-display').value = items =items + '5';">5</button>
+        <button class="btn" onclick="document.querySelector('#value-display').value = items =items + '6';">6</button>
+        <button class="btn btns" onclick="document.querySelector('#value-display').value = items =items + '-';">-</button>
+    
+        <button class="btn" onclick="document.querySelector('#value-display').value = items =items + '1';">1</button>
+        <button class="btn" onclick="document.querySelector('#value-display').value = items =items + '2';">2</button>
+        <button class="btn" onclick="document.querySelector('#value-display').value = items =items + '3';">3</button>
+        <button class="btn btns" onclick="document.querySelector('#value-display').value = items =items + '+';">+</button>
+    
+        <button class="btn" onclick="document.querySelector('#value-display').value = items =items + '00';">00</button>
+        <button class="btn" onclick="document.querySelector('#value-display').value = items =items + '0';">0</button>
+        <button class="btn btns" onclick="document.querySelector('#value-display').value = items =items + '.';">.</button>
+        <button class="btn btns" onclick="document.querySelector('#value-display').value = items =eval(items)">=</button>
+    </div>
+</div>
+    
+
+
+<script src="App.js"></script>
+</body>
+</html>
